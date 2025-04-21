@@ -19,7 +19,7 @@
 
      • Главные классы (Animal, Enclosure, FeedingSchedule) представляют бизнес-объекты
 
-     • Реализация доменных событий (AnimalMovedEvent, FeedingTimeEvent) для управления событиями в системе
+     • Реализация доменных событий (AnimalMovedEvent, FeedingTimeEvent) для управления событиями 
      
    
 Примененные концепции Clean Architecture:
