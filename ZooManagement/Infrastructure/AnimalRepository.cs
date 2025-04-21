@@ -17,6 +17,7 @@ namespace ZooManagement.Infrastructure
         public void Remove(int id) => _animals.RemoveAll(a => a.Id == id);
 
         public Animal GetById(int id) => _animals.FirstOrDefault(a => a.Id == id);
+        
         public IEnumerable<Animal> GetAll() => _animals;
     }
 }
